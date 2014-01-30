@@ -1,0 +1,149 @@
+2014/01/28 10:36:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "home/index".' in E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?DBGSESSID=-1
+---
+2014/01/28 10:38:58 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php:878
+Stack trace:
+#0 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\protected\modules\home\controllers\DefaultController.php(5): CController->render('index', Array)
+#2 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(282): CController->run('index')
+#7 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?DBGSESSID=-1
+---
+2014/01/28 10:40:52 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php:878
+Stack trace:
+#0 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\protected\modules\home\controllers\DefaultController.php(5): CController->render('index', Array)
+#2 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(282): CController->run('index')
+#7 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?DBGSESSID=-1
+---
+2014/01/28 10:41:44 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php:878
+Stack trace:
+#0 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\protected\modules\home\controllers\DefaultController.php(5): CController->render('index', Array)
+#2 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(282): CController->run('index')
+#7 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?DBGSESSID=-1
+---
+2014/01/28 10:44:28 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "index".' in E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php:878
+Stack trace:
+#0 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\protected\modules\home\controllers\DefaultController.php(5): CController->render('index', Array)
+#2 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(282): CController->run('index')
+#7 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?DBGSESSID=-1
+---
+2014/01/28 10:47:29 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<module:\w+>/<module:\w+>/<action:\w+>" for route "<module>/<action>" is not a valid regular expression.' in E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CUrlManager.php:701
+Stack trace:
+#0 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CUrlManager.php(270): CUrlRule->__construct('<module>/<actio...', '<module:\w+>/<m...')
+#1 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CUrlManager.php(226): CUrlManager->createUrlRule('<module>/<actio...', '<module:\w+>/<m...')
+#2 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CUrlManager.php(206): CUrlManager->processRules()
+#3 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CModule.php(387): CUrlManager->init()
+#4 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CApplication.php(522): CModule->getComponent('urlManager')
+#5 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#6 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?DBGSESSID=-1
+---
+2014/01/28 10:47:37 [error] [exception.CException] exception 'CException' with message 'The URL pattern "<module:\w+>/<module:\w+>/<action:\w+>" for route "<module>/<action>" is not a valid regular expression.' in E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CUrlManager.php:701
+Stack trace:
+#0 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CUrlManager.php(270): CUrlRule->__construct('<module>/<actio...', '<module:\w+>/<m...')
+#1 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CUrlManager.php(226): CUrlManager->createUrlRule('<module>/<actio...', '<module:\w+>/<m...')
+#2 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CUrlManager.php(206): CUrlManager->processRules()
+#3 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CModule.php(387): CUrlManager->init()
+#4 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CApplication.php(522): CModule->getComponent('urlManager')
+#5 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(140): CApplication->getUrlManager()
+#6 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/index.php?DBGSESSID=-1
+---
+2014/01/28 10:47:46 [error] [exception.CException] exception 'CException' with message 'HomeController cannot find the requested view "index".' in E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php:878
+Stack trace:
+#0 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\protected\modules\home\controllers\HomeController.php(5): CController->render('index', Array)
+#2 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\actions\CInlineAction.php(49): HomeController->actionIndex()
+#3 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(282): CController->run('index')
+#7 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?DBGSESSID=-1
+---
+2014/01/28 10:48:18 [error] [php] Object of class CTheme could not be converted to string (E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\protected\modules\home\controllers\HomeController.php:5)
+Stack trace:
+#0 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(286): HomeController->runAction()
+#1 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(265): HomeController->runActionWithFilters()
+#2 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(282): HomeController->run()
+#3 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?DBGSESSID=-1
+in E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\protected\modules\home\controllers\HomeController.php (5)
+in E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\index.php (13)
+2014/01/28 10:48:53 [error] [exception.CException] exception 'CException' with message 'HomeController cannot find the requested view "index".' in E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php:878
+Stack trace:
+#0 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\protected\modules\home\controllers\HomeController.php(7): CController->render('index', Array)
+#2 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\actions\CInlineAction.php(49): HomeController->actionIndex()
+#3 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(282): CController->run('index')
+#7 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?DBGSESSID=-1
+---
+2014/01/28 10:55:22 [error] [exception.CException] exception 'CException' with message 'Property "MainController.layouts" is not defined.' in E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CComponent.php:173
+Stack trace:
+#0 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\protected\modules\home\controllers\MainController.php(5): CComponent->__set('layouts', 'content')
+#1 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#2 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(282): CController->run('index')
+#6 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#7 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 E:\ÐÀÁÎÒÀ\ÌÎÈ ÏÐÎÅÊÒÛ\CMS\www\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?DBGSESSID=-1
+---
